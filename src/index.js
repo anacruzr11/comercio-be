@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.get("/api", (req, res) => {
   return res.json({
-    msg: "Bienvenido al Api Demo",
+    msg: "Bienvenido al comercio",
   });
 });
 
