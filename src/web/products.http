@@ -1,0 +1,24 @@
+@api = http://localhost:4000/api/productos
+# @api = https://dwfs16-m3s21-ejercicio-auth.onrender.com/api/productos
+
+### sign in
+GET {{api}}
+
+### sign in
+GET {{api}}/64b5a44c31e4901ba8cc7680
+
+### sign in
+POST {{api}}
+Content-Type: application/json
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTMyZTRhN2VmMmQwNjdmNjZlMDNhMSIsImlhdCI6MTY4OTYyNTA1OSwiZXhwIjoxNjg5NjM5NDU5fQ.3zfXTBWRSmOgM1jB0GI09mYHoQO7y5wXKuFxQle1cD0
+
+{
+    "name": "Echo dot de 5ta generación",
+    "description": "Echo dot con alexa y reloj inteligente",
+    "price": 90,
+    "image": "https://http2.mlstatic.com/D_Q_NP_656423-MLA52233555316_112022-O.webp"
+}
+
+### renovar token
+{{api}}/renew
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTMyZTRhN2VmMmQwNjdmNjZlMDNhMSIsImlhdCI6MTY4OTYyNTA1OSwiZXhwIjoxNjg5NjM5NDU5fQ.3zfXTBWRSmOgM1jB0GI09mYHoQO7y5wXKuFxQle1cD0
