@@ -20,7 +20,7 @@ const registrarUsuario = async (req, res) => {
 
     const nuevo_usuario = {
       user_name,
-      password: bcrypt.hashSync(password, salt),
+      password: hashSync(password, salt),
     };
 
     const new_user = await User(nuevo_usuario).save();

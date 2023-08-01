@@ -8,7 +8,7 @@ const UserSchema = Schema({
   },
   password: {
     type: String,
-  }
+  },
 });
 
 UserSchema.methods.toJSON = function () {

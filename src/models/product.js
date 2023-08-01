@@ -3,7 +3,7 @@ const { Schema, model } = require("mongoose");
 const ProductSchema = Schema({
   name: {
     type: String,
-    required: [true, "El name es obligatorio"],
+    required: [true, "El 'name' es obligatorio"],
     unique: true,
   },
   description: {
