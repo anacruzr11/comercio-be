@@ -9,4 +9,4 @@ La aplicación está diseñada para ser adaptada a diferentes formatos de pantal
 Los enlaces de interás para el proyecto son:
 - Repositorio FE: https://github.com/anacruzr11/aplicacion-comercio-fe
 - Repositorio BE: https://github.com/anacruzr11/comercio-be
-- Aplicación publicada:
+- Aplicación publicada: https://benatha.netlify.app/
