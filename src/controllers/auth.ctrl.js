@@ -74,6 +74,7 @@ const iniciarSesion = async (req, res) => {
       data: user,
       token,
     });
+    
   } catch (error) {
     return res.status(500).json({
       ok: false,
